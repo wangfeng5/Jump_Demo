@@ -23,7 +23,8 @@ class XYJJumpTableViewController: UITableViewController {
                              "存储空间","显示与亮度",
                              "声音设置","App Store",
                              "iCloud","语言设置",
-                             "ios15+健康权限页面"];
+                             "ios15+健康权限页面",
+                             "flowz的设置页面（包括屏幕使用时间访问限制）"];
     let urlStrings: Array = ["App-Prefs:root=WIFI","App-Prefs:root=Bluetooth",
                              "App-Prefs:root=MOBILE_DATA_SETTINGS_ID",
                              "App-Prefs:root=INTERNET_TETHERING",
@@ -51,7 +52,8 @@ class XYJJumpTableViewController: UITableViewController {
                              "App-Prefs:root=STORE",
                              "App-Prefs:root=CASTLE",
                              "App-Prefs:root=General&path=INTERNATIONAL",
-                             "App-prefs:Privacy&path=HEALTH"]
+                             "App-prefs:Privacy&path=HEALTH",
+                             "App-prefs:tech.motionz.flowzland"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
