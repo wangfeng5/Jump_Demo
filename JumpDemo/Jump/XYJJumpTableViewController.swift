@@ -22,7 +22,8 @@ class XYJJumpTableViewController: UITableViewController {
                              "FaceTime","电池电量",
                              "存储空间","显示与亮度",
                              "声音设置","App Store",
-                             "iCloud","语言设置"];
+                             "iCloud","语言设置",
+                             "ios15+健康权限页面"];
     let urlStrings: Array = ["App-Prefs:root=WIFI","App-Prefs:root=Bluetooth",
                              "App-Prefs:root=MOBILE_DATA_SETTINGS_ID",
                              "App-Prefs:root=INTERNET_TETHERING",
@@ -49,7 +50,8 @@ class XYJJumpTableViewController: UITableViewController {
                              "App-Prefs:root=Sounds",
                              "App-Prefs:root=STORE",
                              "App-Prefs:root=CASTLE",
-                             "App-Prefs:root=General&path=INTERNATIONAL"]
+                             "App-Prefs:root=General&path=INTERNATIONAL",
+                             "App-prefs:Privacy&path=HEALTH"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
